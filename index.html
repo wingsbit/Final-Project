@@ -30,10 +30,16 @@
                   <div class="content my-slider">
                     <img class="img" src="assets/img/temo3.jpg" alt="temo3">
                   </div>
-                </div>
-                <button onclick="prevSlide()" class="slider-button">Previous</button>
-                <button onclick="nextSlide()" class="slider-button">Next</button>
-                </div>
+
+                <section>
+                    <div class="section-container">
+                    </div>
+                    <div class="slider-navigation">
+                        <button class="prev-button" onclick="prevSlide()">Previous</button>
+                        <button class="next-button" onclick="nextSlide()">Next</button>
+                    </div>
+                </section>
+                
 
                 <div class="content">
                     <div class="text-container">
@@ -96,13 +102,6 @@
                 <div class="progress" data-percentage="30"></div>
             </div>
         </div>
-    
-        <div class="social-links">
-            <a href="https://www.facebook.com/TemoWings"><img src="./assets/img/facebook.png" alt="facebook"></a>
-            <a href="https://twitter.com/WingsBit"><img src="./assets/img/twitter.png" alt="twitter"></a>
-            <a href="https://www.linkedin.com/in/temuri-nanava-9534b6158"><img src="./assets/img/linkedin.png" alt="linkedin"></a>
-            <a href="wingsbit@gmail.com"><img src="./assets/img/google+.png" alt="gmail"></a>
-        </div>
     </section>
     
     
@@ -137,45 +136,59 @@
     </section>
 
     <section>
-        <div class="feature"></div>
-            <div>
-                <img src="./assets/img/design.svg" alt="design">
-                <h3>Web Design</h3>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. READ MORE</p>
+        <div class="box-container">
+          <div class="box">
+            <img src="./assets/img/design.svg" alt="design">
+            <div class="box-overlay">
+              <h3>Web Design</h3>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. READ MORE</p>
             </div>
-            <div >
-                <img src="./assets/img/pixel.svg" alt="pixel">
-                <h3>Pixel Perfect</h3>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. READ MORE</p>
+          </div>
+          <div class="box">
+            <img src="./assets/img/pixel.svg" alt="pixel">
+            <div class="box-overlay">
+              <h3>Pixel Perfect</h3>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. READ MORE</p>
             </div>
-            <div >
-                <img src="./assets/img/ideas.svg" alt="ideas">
-                <h3>Unique Ideas</h3>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. READ MORE</p>
+          </div>
+          <div class="box">
+            <img src="./assets/img/ideas.svg" alt="ideas">
+            <div class="box-overlay">
+              <h3>Unique Ideas</h3>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. READ MORE</p>
             </div>
-            <div >
-                <img src="./assets/img/support.svg" alt="support">
-                <h3>Helpful Support</h3>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. READ MORE</p>
+          </div>
+          <div class="box">
+            <img src="./assets/img/support.svg" alt="support">
+            <div class="box-overlay">
+              <h3>Helpful Support</h3>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. READ MORE</p>
             </div>
-            <div >
-                <img src="./assets/img/analysis.svg" alt="analysis">
-                <h3>Design Analysis</h3>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. READ MORE</p>
+          </div>
+          <div class="box">
+            <img src="./assets/img/analysis.svg" alt="analysis">
+            <div class="box-overlay">
+              <h3>Design Analysis</h3>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. READ MORE</p>
             </div>
-            <div >
-                <img src="./assets/img/service.svg" alt="service">
-                <h3>Best Service</h3>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. READ MORE</p>
+          </div>
+          <div class="box">
+            <img src="./assets/img/service.svg" alt="service">
+            <div class="box-overlay">
+              <h3>Best Service</h3>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. READ MORE</p>
             </div>
-            <div >
-                <img src="./assets/img/chart.svg" alt="chart">
-                <h3>Fully Managed</h3>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. READ MORE</p>
+          </div>
+          <div class="box">
+            <img src="./assets/img/chart.svg" alt="chart">
+            <div class="box-overlay">
+              <h3>Fully Managed</h3>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. READ MORE</p>
             </div>
-            <div>
+          </div>
         </div>
-    </section>
+      </section>
+      
 
     <section>
         <div class="section-container">
@@ -186,7 +199,6 @@
                 </div>
                 <div class="person-details">
                     <p class="role">Investor</p>
-                    <h4 class="name">Temo</h4>
                 </div>
             </div>
             <div class="person-info">
@@ -196,7 +208,6 @@
                 </div>
                 <div class="person-details">
                     <p class="role">Coach</p>
-                    <h4 class="name">Temo</h4>
                 </div>    
             </div>
             <div class="person-info">
@@ -206,16 +217,21 @@
                 </div>
                 <div class="person-details">
                     <p class="role">TA</p>
-                    <h4 class="name">Temo</h4>
                 </div>
             </div>
         </div>
+        <div class="slider-navigation">
+            <div class="slider-dot"></div>
+            <div class="slider-dot"></div>
+            <div class="slider-dot"></div>
+        </div>
     </section>
+    
     
 
     <section class="latest-projects">
-        <h2>Latest Projects</h2>
         <div class="project-container">
+        <h2>Latest Projects</h2>
           <div class="filter-buttons">
             <div>
               <button class="filter-button" data-filter="all">All</button>

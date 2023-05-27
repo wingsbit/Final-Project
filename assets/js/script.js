@@ -1,26 +1,28 @@
 var slideIndex = 0;
-showSlides();
+showSlides(slideIndex);
 
-function showSlides() {
+function showSlides(index) {
   var i;
   var slides = document.getElementsByClassName("my-slider");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
-  slideIndex++;
-  if (slideIndex > slides.length) {
-    slideIndex = 1;
+  if (index >= slides.length) {
+    slideIndex = 0;
+  } else if (index < 0) {
+    slideIndex = slides.length - 1;
+  } else {
+    slideIndex = index;
   }
-  slides[slideIndex - 1].style.display = "block";
-  setTimeout(showSlides, 4000); // Change slide every 2 seconds
+  slides[slideIndex].style.display = "block";
 }
 
 function prevSlide() {
-  slideIndex--;
-  showSlides();
+  showSlides(slideIndex - 1);
 }
 
 function nextSlide() {
-  slideIndex++;
-  showSlides();
+  showSlides(slideIndex + 1);
 }
+
+

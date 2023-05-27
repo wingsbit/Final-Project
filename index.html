@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="./assets/js/script.js"></script>
     <title>Final Project</title>
 </head>
 
@@ -17,16 +18,23 @@
                     <p class="section-title">About me</p>
                 </div>
             </div>
-            <div class="inner-container">
-                <div class="content">
+            
+                <div class="slider-container">
+                <div class="inner-container">
+                  <div class="content my-slider">
                     <img class="img" src="assets/img/temo1.jpg" alt="temo1">
-                </div>
-                <div class="content">
+                  </div>
+                  <div class="content my-slider">
                     <img class="img" src="assets/img/temo2.jpg" loading="lazy" alt="temo2">
-                </div>
-                <div class="content">
+                  </div>
+                  <div class="content my-slider">
                     <img class="img" src="assets/img/temo3.jpg" alt="temo3">
+                  </div>
                 </div>
+                <button onclick="prevSlide()" class="slider-button">Previous</button>
+                <button onclick="nextSlide()" class="slider-button">Next</button>
+                </div>
+
                 <div class="content">
                     <div class="text-container">
                         <h2>Hi, I am</h2>
